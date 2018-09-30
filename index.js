@@ -17,3 +17,15 @@ function johnLennonFacts(factsArray){
   
   return factsArray;
 }
+
+function iLoveTheBeatles(number){
+  var tempArray = [];
+  
+  do{
+    tempArray.push("I love the Beatles!");
+    number++;
+  }while(number < 15);
+  
+  return tempArray;
+  
+}
